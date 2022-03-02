@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Navigation</title>
+    <style>
+        
+        .navbar{
+            background-color: rgb(32, 2, 2);
+            border: 10px;
+            border-radius: 300px;
+            
+        }
+        .navbar ul{
+            overflow: auto;
+            
+        }
+        .navbar li{
+            float:left;
+            list-style: none; 
+            margin: 13px 20px;
+            border: 50px red;
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+        }
+        .navbar li a:hover{
+            color: red
+        }
+        .search{
+            float: right;
+            color: white;
+            padding: 12px 75px;
+        }
+        .navbar input{
+            border: 2px solid rgb(102, 24, 24);
+            border-radius: 14px;
+            padding: 3px 17px;
+            width: 129px;
+        }
+        .a1{
+            font-size: larger;
+            font-family: cursive;
+            background-color: cornsilk ;
+            margin: 0px 0px;
+            padding: 80px 80px 80px 80px;
+            width: 40%;
+            display: inline-block;
+            box-sizing: border-box;
+        }
+        #c{margin: 20px 30px;
+            padding: 0px;
+            display: inline-block;
+            width: 30%; 
+        }
+        .a2{
+            font-size: large;
+            font-family: cursive;
+            background-color: cornsilk ;
+            margin: 20px 0px;
+            padding: 20px 80px 20px 80px;
+            width: 100%;
+        }
+        .a3{
+            font-size: large;
+            font-family: cursive;
+            background-color: cornsilk ;
+            margin: 20px 0px;
+            padding: 20px 80px 20px 80px;
+            width: 100%;
+        }
+        .a4{
+            font-size: large;
+            font-family: cursive;
+            background-color: cornsilk ;
+            margin: 20px 0px;
+            padding: 20px 80px 20px 80px;
+            width: 100%; 
+        }
+        .a5{
+            font-size: large;
+            font-family: cursive;
+            background-color: cornsilk ;
+            margin: 20px 0px;
+            padding: 20px 80px 20px 80px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Education</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Hobbies</a></li>
+                <div class="search">
+                    <input type="text" name="search" id="search" placeholder="Search this website">
+                </div>
+            </ul>
+        </nav>
+        <div class="a1">
+            <h3 id="a">About me</h3>
+            <P id="b">Hey, I am Vivek Raj ,Student at IIIT Bhagalpur pursuing my Btech in CSE</P>
+        </div>
+        <div id="c">
+            <img src="vivek.jpeg" width="150px">
+        </div>
+        <div class="a2">
+            <h3>Education:-</h3>
+                <ul>
+                    <li><em><strong>Present:-</strong></em>currently pursuing my CSE degree from IIIT Bhagalpur </li>
+                    <li><em><strong>2020:-</strong></em>completed my 12th from KPS School ,Patna </li>
+                    <li><em><strong>2018:-</strong></em>completed my 10th from RPS School ,Bihar Sharif </li>
+                </ul>
+            </div>
+        
+            <div class="a3">
+                <h3>Skills:-</h3>
+                <ul>
+                    <li>HTML:-70%</li>
+                    <li>cSS:-10%</li>
+                    
+                </ul>
+            </div>
+            <div class="a4">
+                <h3><em>My Interests and hobbies:-</em></h3>
+                <ul>
+                    <li>Interested in Esports </li>
+                    <li>Love to play badminton</li>
+                    <li>love to Travel to new Places</li>
+                </ul>
+            </div>
+            <div class="a5">
+                <h3>Any Suggestions:-</h3>
+                <form>
+                    <div>
+                        <input type="text" placeholder="Your name">
+                        <input type="email" placeholder="Email"><br><br>
+                        <textarea name="text"placeholder="suggestions" cols="30"rows="10"></textarea>
+                    </div>
+                </form>
+            </div>
+    </header>
+</body>
+
+</html>
